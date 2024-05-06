@@ -1,0 +1,78 @@
+body {
+    background-color: #ffd700;
+}
+
+.form-container {
+    margin: auto;
+    background-color: white;
+    max-width: 500px;
+    padding: 12px;
+}
+
+.form-content {
+    border: 1px solid rgb(220, 215, 215);
+    border: 8px;
+    padding: 28px;
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.form-content input, 
+.form-content textarea {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid rgb(220, 215, 215);
+}
+
+button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: medium;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+.discord {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.discord .discord-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.discord-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.discord .discord-user {
+    margin-left: 8px;
+}
+
+.discord .discord-user div {
+    border: 1px solid rgb(220, 215, 215);
+    border-radius: 20px;
+    padding: 4px 8px;
+    margin-top: 8px;
+}
+
+.discord .discord-user {
+    padding: 0;
+    margin: 0;
+}
